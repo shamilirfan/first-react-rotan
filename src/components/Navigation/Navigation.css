@@ -1,0 +1,12 @@
+.navigation-container {
+    width: 50%;
+    margin: 0px auto;
+    padding: 6px;
+    text-align: center;
+    background-color: palegreen;
+    border: none;
+}
+
+.navigation-container>a {
+    margin: 0px 40px;
+}
