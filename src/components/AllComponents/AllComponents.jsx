@@ -4,7 +4,7 @@ import About from '../About/About'
 import Navigation from '../Navigation/Navigation'
 import ExpDynaData from '../ExpDynaData/ExpDynaData'
 import Products from '../Products/Products'
-// import Practice from '../Practice/Practice'
+import Practice from '../Practice/Practice'
 
 
 function AllComponents() {
@@ -21,7 +21,7 @@ function AllComponents() {
             <ExpDynaData name='rupa' age='40' />
             <ExpDynaData name='topu' age='30' />
             <Products product={products} />
-            {/* <Practice /> */}
+            <Practice pro={products} />
         </div>
     )
 }
